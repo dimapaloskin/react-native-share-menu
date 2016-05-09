@@ -32,7 +32,7 @@ dependencies {
 
 ```java
 import com.meedan.ShareMenuPackage;  // <--- import
-
+https://raw.githubusercontent.com/meedan/react-native-share-menu/iOS/screenshots/iOS_menu.png
 public class MainActivity extends ReactActivity {
   ......
   @Override
@@ -101,4 +101,4 @@ AppRegistry.registerComponent('Test', () => Test);
 <img src="https://raw.githubusercontent.com/caiosba/react-native-share-menu/master/screenshots/menu.png" width="47%"> <img src="https://raw.githubusercontent.com/caiosba/react-native-share-menu/master/screenshots/android.png" width="47%">
 
 ## How it looks on iOS
-<img src="httpshttps://raw.githubusercontent.com/meedan/react-native-share-menu/iOS/screenshots/iOS_menu.png" width="47%"> <img src="https://raw.githubusercontent.com/meedan/react-native-share-menu/iOS/screenshots/iOS_view.png" width="47%">
+<img src="https://raw.githubusercontent.com/meedan/react-native-share-menu/iOS/screenshots/iOS_menu.png" width="47%"> <img src="https://raw.githubusercontent.com/meedan/react-native-share-menu/iOS/screenshots/iOS_view.png" width="47%">
