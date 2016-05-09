@@ -13,14 +13,14 @@
 @implementation ShareMenuModule
 static NSItemProvider* ShareMenuModule_itemProvider;
 RCT_EXPORT_MODULE();
-RCT_EXPORT_METHOD(findEvents:(RCTResponseSenderBlock)callback)
+RCT_EXPORT_METHOD(getSharedText:(RCTResponseSenderBlock)callback)
 {
 
   if ([ShareMenuModule_itemProvider hasItemConformingToTypeIdentifier:(NSString *)kUTTypeURL]) {
     [ShareMenuModule_itemProvider loadItemForTypeIdentifier:(NSString *)kUTTypeURL options:nil completionHandler:^(NSURL *url, NSError *error) {
       
  
-      callback(@[[NSNull null], url.absoluteString]);
+      callback(@[url.absoluteString]);
       
       
     }];
