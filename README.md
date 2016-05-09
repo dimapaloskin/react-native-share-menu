@@ -10,6 +10,8 @@ Adds the application to the share menu of the device, so it can be launched from
 npm i --save react-native-share-menu
 ```
 
+## Using Android component
+
 * In `android/settings.gradle`
 
 ```gradle
@@ -47,9 +49,9 @@ public class MainActivity extends ReactActivity {
 }
 ```
 
-## Using iOS component 
+## Using iOS component
 
-In the share extension loadView mentod, add:
+In the share extension `loadView()` method, add:
 
 ```Objective-c
 [ShareMenuModule setShareMenuModule_itemProvider:itemProvider] ;
@@ -68,7 +70,7 @@ import ShareMenu from 'react-native-share-menu';
 
 class Test extends Component {
   constructor(props) {
-    super(props); 
+    super(props);
     this.state = {
       sharedText: null
     };
@@ -96,7 +98,7 @@ class Test extends Component {
 AppRegistry.registerComponent('Test', () => Test);
 ```
 
-## How it looks
+## How it looks on Android
 
 <img src="https://raw.githubusercontent.com/caiosba/react-native-share-menu/master/screenshots/menu.png" width="47%"> <img src="https://raw.githubusercontent.com/caiosba/react-native-share-menu/master/screenshots/android.png" width="47%">
 
