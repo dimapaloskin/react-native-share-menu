@@ -47,6 +47,14 @@ public class MainActivity extends ReactActivity {
 }
 ```
 
+## Using iOS component 
+
+In the share extension loadView mentod, add:
+
+```Objective-c
+[ShareMenuModule setShareMenuModule_itemProvider:itemProvider] ;
+```
+
 ## Example
 
 ```javascript
