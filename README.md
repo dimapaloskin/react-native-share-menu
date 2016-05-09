@@ -99,3 +99,6 @@ AppRegistry.registerComponent('Test', () => Test);
 ## How it looks
 
 <img src="https://raw.githubusercontent.com/caiosba/react-native-share-menu/master/screenshots/menu.png" width="47%"> <img src="https://raw.githubusercontent.com/caiosba/react-native-share-menu/master/screenshots/android.png" width="47%">
+
+## How it looks on iOS
+<img src="https://raw.githubusercontent.com/caiosba/react-native-share-menu/master/screenshots/iOS screenshot 1.png" width="47%"> <img src="https://raw.githubusercontent.com/caiosba/react-native-share-menu/master/screenshots/android.png" width="47%">
