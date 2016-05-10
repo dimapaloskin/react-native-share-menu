@@ -54,7 +54,9 @@ public class MainActivity extends ReactActivity {
 In the share extension `loadView()` method, add:
 
 ```Objective-c
-[ShareMenuModule setShareMenuModule_itemProvider:itemProvider] ;
+  NSExtensionItem *item = self.extensionContext.inputItems.firstObject;
+  NSItemProvider *itemProvider = item.attachments.firstObject;
+  [ShareMenuModule setShareMenuModule_itemProvider:itemProvider] ;
 ```
 
 ## Example
